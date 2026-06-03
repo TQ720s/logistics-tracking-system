@@ -1,0 +1,51 @@
+# 项目说明
+README.md
+
+# Maven 编译输出
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# 前端
+vue/node_modules/
+vue/dist/
+
+# 日志
+*.log
+
+# 环境配置
+*.env
+application-local.yml
+
+# 系统文件
+.DS_Store
+Thumbs.db
